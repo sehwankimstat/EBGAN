@@ -9,4 +9,13 @@ Sehwan Kim, Qifan Song, and Faming Liang (2023+), A New Paradigm for Generative 
 
 ## Description
 
-Sehwan Kim, Qifan Song, and Faming Liang (2023+), A New Paradigm for Generative Adversarial Networks based on Randomized Decision Rules, accepted by *Statistica Sinica*
+EBGAN uses multiple generators and one discriminator to address the mode collapse issue. As introduction of mode collapse issue for vanilla GAN, we considered the one mode gaussian example. Below is the example for  
+
+Key properties of the Bayesian approach to GANs include (1) accurate predictions on semi-supervised learning problems; (2) minimal intervention for good performance; (3) a probabilistic formulation for inference in response to adversarial feedback; (4) avoidance of mode collapse; and (5) a representation of multiple complementary generative and discriminative models for data, forming a probabilistic ensemble.
+
+<p align="center">
+    <img src="img/download (10).png" width="500"/>
+</p>
+
+You can Refer the notebook `.ipynb`.
+
