@@ -7,3 +7,6 @@ The code includes the experiments of the Empirical Bayesian GAN(EBGAN) by Sehwan
 
 Sehwan Kim, Qifan Song, and Faming Liang (2023+), A New Paradigm for Generative Adversarial Networks based on Randomized Decision Rules, accepted by *Statistica Sinica*
 
+## Description
+
+Sehwan Kim, Qifan Song, and Faming Liang (2023+), A New Paradigm for Generative Adversarial Networks based on Randomized Decision Rules, accepted by *Statistica Sinica*
