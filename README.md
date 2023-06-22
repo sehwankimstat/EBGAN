@@ -17,5 +17,12 @@ Key properties of the Bayesian approach to GANs include (1) accurate predictions
     <img src="img/download (10).png" width="500"/>
 </p>
 
+<p align="center">
+    <img src="img/svhn_1.png" width=250>&nbsp;&nbsp;&nbsp;&nbsp; 
+    <img src="img/svhn_2.png" width=250> &nbsp;&nbsp;&nbsp;&nbsp; 
+    <img src="img/svhn_3.png" width=250> 
+</p>
+
+
 You can Refer the notebook `.ipynb`.
 
