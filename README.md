@@ -14,13 +14,14 @@ EBGAN uses multiple generators and one discriminator to address the mode collaps
 Key properties of the Bayesian approach to GANs include (1) accurate predictions on semi-supervised learning problems; (2) minimal intervention for good performance; (3) a probabilistic formulation for inference in response to adversarial feedback; (4) avoidance of mode collapse; and (5) a representation of multiple complementary generative and discriminative models for data, forming a probabilistic ensemble.
 
 <p align="center">
-    <img src="img/download (10).png" width="500"/>
+    <img src="img/Nash_convergence_GAN.png" width=400>&nbsp;&nbsp;&nbsp;&nbsp; 
+    <img src="img/Nash_convergence_EBGAN.png" width=400> 
 </p>
 
+
 <p align="center">
-    <img src="img/svhn_1.png" width=250>&nbsp;&nbsp;&nbsp;&nbsp; 
-    <img src="img/svhn_2.png" width=250> &nbsp;&nbsp;&nbsp;&nbsp; 
-    <img src="img/svhn_3.png" width=250> 
+    <img src="img/Nash_convergence_GAN.png" width=250>\\
+    <img src="img/Nash_convergence_EBGAN." width=250>
 </p>
 
 
