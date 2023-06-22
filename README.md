@@ -8,22 +8,22 @@ The code includes the experiments of the Empirical Bayesian GAN(EBGAN) by Sehwan
 Sehwan Kim, Qifan Song, and Faming Liang (2023+), A New Paradigm for Generative Adversarial Networks based on Randomized Decision Rules, accepted by *Statistica Sinica*
 
 ## Description
-
-EBGAN uses multiple generators and one discriminator to address the mode collapse issue. As introduction of mode collapse issue for vanilla GAN, we considered the one mode gaussian example. Below is the example for  
-
-Key properties of the Bayesian approach to GANs include (1) accurate predictions on semi-supervised learning problems; (2) minimal intervention for good performance; (3) a probabilistic formulation for inference in response to adversarial feedback; (4) avoidance of mode collapse; and (5) a representation of multiple complementary generative and discriminative models for data, forming a probabilistic ensemble.
+EBGAN utilizes multiple generators and one discriminator to tackle the problem of mode collapse. For the synthetic data example, we considered Gaussian distribution with a single mode. The discriminator's value is often employed to assess the attainment of Nash Equilibrium. The plots indicate that both vanilla GAN and EBGAN successfully reach Nash Equilibrium.
 
 <p align="center">
     <img src="img/Nash_convergence_GAN.png" width=400>&nbsp;&nbsp;&nbsp;&nbsp; 
     <img src="img/Nash_convergence_EBGAN.png" width=400> 
 </p>
 
+However, the coverage plots indicate that GAN encounters mode collapse, whereas EBGAN effectively mitigates this issue by incorporating samples from multiple generators.
 
 <p align="center">
-    <img src="img/Nash_convergence_GAN.png" width=250>\\
-    <img src="img/Nash_convergence_EBGAN." width=250>
+    <img src="img/GAN_gaussian.png" width=800>
+</p>
+
+<p align="center">
+    <img src="img/EBGAN_gaussian.png" width=800>
 </p>
 
 
-You can Refer the notebook `.ipynb`.
-
+For further details, please refer to the notebook `EBGAN_gaussian_Nprior.ipynb`.
