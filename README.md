@@ -27,3 +27,11 @@ However, the coverage plots indicate that GAN encounters mode collapse, whereas 
 
 
 For further details, please refer to the notebook `EBGAN_gaussian_Nprior.ipynb`.
+
+## Image generation
+
+<p align="center">
+    <img src="img/hmnist_ebgan_images.gif" width=400>
+    <img src="img/HMNIST_ebgan_convergence.png" width=500> 
+</p>
+
