@@ -32,6 +32,6 @@ For further details, please refer to the notebook `EBGAN_gaussian_Nprior.ipynb`.
 
 <p align="center">
     <img src="img/hmnist_ebgan_images.gif" width=400>
-    <img src="img/HMNIST_ebgan_convergence.png" width=500> 
+    <img src="img/HMNIST_ebgan_convergence.png" height=350> 
 </p>
 
