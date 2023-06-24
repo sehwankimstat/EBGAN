@@ -35,3 +35,9 @@ For further details, please refer to the notebook `EBGAN_gaussian_Nprior.ipynb`.
     <img src="img/HMNIST_ebgan_convergence.png" height=350> 
 </p>
 
+
+## Clustering
+
+<p align="center">
+    <img src="img/mnist_cluster_ebgan_images.gif" width=400>
+</p>
