@@ -5,7 +5,7 @@ The code includes the experiments of the Empirical Bayesian GAN(EBGAN) by Sehwan
 
 ## Related Publication
 
-Sehwan Kim, Qifan Song, and Faming Liang (2023+), A New Paradigm for Generative Adversarial Networks based on Randomized Decision Rules, accepted by *Statistica Sinica*
+Sehwan Kim, Qifan Song, and Faming Liang (2023+), [A New Paradigm for Generative Adversarial Networks based on Randomized Decision Rules](https://arxiv.org/abs/2306.13641), accepted by *Statistica Sinica*
 
 ## Description
 EBGAN utilizes multiple generators and one discriminator to tackle the problem of mode collapse. For the synthetic data example, we considered Gaussian distribution with a single mode. The discriminator's value is often employed to assess the attainment of Nash Equilibrium. The plots indicate that both vanilla GAN and EBGAN successfully reach Nash Equilibrium.
